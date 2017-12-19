@@ -8,48 +8,57 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/reset.css">
 <!-- google fonts -->
 </head>
 
-
+<body>
 <div class="row">
   <div class="col-xs-6">
-    <h1>T <small>TFD</small></h1>
-    <button id="Forage" type="button" class="btn btn-primary btn-lg btn-block">Forage</button>
-    <button id="Burn" type="button" class="btn btn-warning btn-lg btn-block">Burn 100 Wood</button>
+    <h1>The Fast & The Furious</h1>
+    <h2>Burn Some Rubber</h2>
+    <button id="Forage" type="button" class="btn btn-primary btn-lg btn-block">Enter Drag Race</button>
+    <button id="Burn" type="button" class="btn btn-warning btn-lg btn-block">Use Racing Resource</button>
     <hr>
-    <h3>Upgrades</h3>
+    <h3>Drone Pilot</h3>
         <table class="table">
             <tr>
                 <td>
-                    Auto-Harvest <small id="autoclicker_level">lvl 0</small>
+                    Drone-Race <small id="autoclicker_level">lvl 0</small>
                 </td>
 
                 <td>
-                    <button id="autoharvest" type="button" class="btn btn-success">1 Stone</button>
+                    <button id="autoharvest" type="button" class="btn btn-success">1 Gas</button>
                 </td>
             </tr>
             <tr>
-                <td>Harvest Speed <small id="speed_level">lvl 0</small>
+                <td>Drone Skill <small id="speed_level">lvl 0</small>
                 </td>
-                <td><button id="harvestupgrade_speed" type="button" class="btn btn-success">30 Stone</button></td>
+                <td><button id="harvestupgrade_speed" type="button" class="btn btn-success">30 Gas</button></td>
             </tr>
         </table>
   </div>
 
 <div class="row">
   <div class="col-xs-6">
-      <h2>Experience</h2>
-      <p> Level: <span id="current_level">1</span> <br />
-          Exp: <span id="exptotal">0 </span><span> / </span><span id="exptnl">5</span> <br />
-          Wood per click: <span id="woodperclick">1 </span> <br />
-          Stone per click: <span id="stoneperclick">0 </span> <br />
+      <h2>Drag wins</h2>
+      <p> Wins: <span id="current_level">1</span> <br />
+          Races entered: <span id="exptotal">0 </span><span> / </span><span id="exptnl">5</span> <br />
+          Money per click: <span id="woodperclick">1 </span> <br />
+          NOS per click: <span id="stoneperclick">0 </span> <br />
       <p>
-      <h2>Resources</h2>
-          Wood: <span id="total_wood">0</span> (<small id="wps">+0</small>)<br />
-          Stone: <span id="total_stone">0</span> (<small id="sps">+0</small>)<br />
-    Coal: <span id="total_coal">0</span> (<small id="cps">+0</small>)<br />
+      <h2>Racing Resources</h2>
+          Money: <span id="total_wood">0</span> (<small id="wps">+0</small>)<br />
+          Gas: <span id="total_stone">0</span> (<small id="sps">+0</small>)<br />
+          NOS: <span id="total_coal">0</span> (<small id="cps">+0</small>)<br />
       </p>
   </div>
+</body>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+
+  </html>
