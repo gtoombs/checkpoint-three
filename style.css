@@ -2,3 +2,9 @@ html *
 {
   font-family: 'Permanent Marker', cursive !important;
 }
+
+#page-wrap {
+     width: 800px;
+     margin: 0 auto;
+     margin-top: 100px;
+}
