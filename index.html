@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Checkpoint Three</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+<!-- google fonts -->
+</head>
+
+
+<div class="row">
+  <div class="col-xs-6">
+    <h1>T <small>TFD</small></h1>
+    <button id="Forage" type="button" class="btn btn-primary btn-lg btn-block">Forage</button>
+    <button id="Burn" type="button" class="btn btn-warning btn-lg btn-block">Burn 100 Wood</button>
+    <hr>
+    <h3>Upgrades</h3>
+        <table class="table">
+            <tr>
+                <td>
+                    Auto-Harvest <small id="autoclicker_level">lvl 0</small>
+                </td>
+
+                <td>
+                    <button id="autoharvest" type="button" class="btn btn-success">1 Stone</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Harvest Speed <small id="speed_level">lvl 0</small>
+                </td>
+                <td><button id="harvestupgrade_speed" type="button" class="btn btn-success">30 Stone</button></td>
+            </tr>
+        </table>
+  </div>
+
+<div class="row">
+  <div class="col-xs-6">
+      <h2>Experience</h2>
+      <p> Level: <span id="current_level">1</span> <br />
+          Exp: <span id="exptotal">0 </span><span> / </span><span id="exptnl">5</span> <br />
+          Wood per click: <span id="woodperclick">1 </span> <br />
+          Stone per click: <span id="stoneperclick">0 </span> <br />
+      <p>
+      <h2>Resources</h2>
+          Wood: <span id="total_wood">0</span> (<small id="wps">+0</small>)<br />
+          Stone: <span id="total_stone">0</span> (<small id="sps">+0</small>)<br />
+    Coal: <span id="total_coal">0</span> (<small id="cps">+0</small>)<br />
+      </p>
+  </div>
